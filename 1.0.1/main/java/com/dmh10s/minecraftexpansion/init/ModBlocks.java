@@ -17,10 +17,8 @@ public class ModBlocks
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//Blocks
-	//public static final Block ALUMINUM_BLOCK = new AluminumBlock("aluminum_block");
 	
 	//Ores
-	//public static final Block ALUMINUM_ORE = new AluminumOre("aluminum_ore");
 	public static final Block LEAD_ORE = new LeadOre("lead_ore");
 	
 	//Crops
