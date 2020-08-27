@@ -72,21 +72,12 @@ public class ModItems
 		}
 	});
 	
-	/*public static final CreativeTabs MOBS_TAB = (new CreativeTabs("tabMobs") {
-		@Override
-		public ItemStack getTabIconItem() {
-			return new ItemStack(ModItems.COOKED_TURKEY_DRUMSTICK);
-		}
-	});*/
-	
 	//Materials
-	//public static final ToolMaterial MATERIAL_ALUMINUM = EnumHelper.addToolMaterial("material_aluminum",  2, 600, 5.0F, 2.25F, 12);
 	public static final ToolMaterial MATERIAL_BLAZE_POWDER = EnumHelper.addToolMaterial("material_blaze_powder",  3, 1000, 9.0F, 3.0F, 20);
 	public static final ToolMaterial MATERIAL_CARBON_FIBER = EnumHelper.addToolMaterial("material_carbon_fiber", 3, 1750, 8.5F, 3.5F, 10);
 	public static final ToolMaterial MATERIAL_CARBON_STEEL = EnumHelper.addToolMaterial("material_carbon_steel", 3, 1250, 6.0F, 2.75F, 8);
 	public static final ToolMaterial MATERIAL_STEEL = EnumHelper.addToolMaterial("material_steel", 2, 750, 5.5F, 2.5F, 8);
 	
-	//public static final ArmorMaterial ARMOR_MATERIAL_ALUMINUM = EnumHelper.addArmorMaterial("armor_material_aluminum", Reference.MOD_ID + ":aluminum", 14, new int[] {3, 7, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_CARBON_FIBER = EnumHelper.addArmorMaterial("armor_material_carbon_fiber", Reference.MOD_ID + ":carbon_fiber", 16, new int[] {3, 6, 9, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_CARBON_STEEL = EnumHelper.addArmorMaterial("armor_material_carbon_steel", Reference.MOD_ID + ":carbon_steel", 14, new int[] {3, 6, 7, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_KEVLAR = EnumHelper.addArmorMaterial("armor_material_kevlar", Reference.MOD_ID + ":kevlar", 17, new int[] {0, 0, 10, 4}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
@@ -94,7 +85,6 @@ public class ModItems
 	public static final ArmorMaterial ARMOR_MATERIAL_NIGHT_VISION = EnumHelper.addArmorMaterial("armor_material_night_vision", Reference.MOD_ID + ":night_vision", 13, new int[] {0, 0, 0, 2}, 0, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_STEEL = EnumHelper.addArmorMaterial("armor_material_steel", Reference.MOD_ID + ":steel", 13, new int[] {3, 5, 6, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
-	//public static final ArmorMaterial ARMOR_MATERIAL_ENHANCED_ALUMINUM = EnumHelper.addArmorMaterial("armor_material_enhanced_aluminum", Reference.MOD_ID + ":enhanced_aluminum", 14, new int[] {4, 9, 7, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_ENHANCED_CARBON_FIBER = EnumHelper.addArmorMaterial("armor_material_enhanced_carbon_fiber", Reference.MOD_ID + ":enhanced_carbon_fiber", 16, new int[] {4, 8, 11, 4}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_ENHANCED_CARBON_STEEL = EnumHelper.addArmorMaterial("armor_material_enhanced_carbon_steel", Reference.MOD_ID + ":enhanced_carbon_steel", 14, new int[] {4, 8, 9, 4}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_ENHANCED_CHAIN = EnumHelper.addArmorMaterial("armor_material_enhanced_chain", Reference.MOD_ID + ":enhanced_chain", 13, new int[] {3, 6, 7, 3}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
@@ -105,7 +95,6 @@ public class ModItems
 	public static final ArmorMaterial ARMOR_MATERIAL_ENHANCED_LEAD = EnumHelper.addArmorMaterial("armor_material_enhanced_lead", Reference.MOD_ID + ":enhanced_lead", 13, new int[] {3, 7, 8, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_ENHANCED_STEEL = EnumHelper.addArmorMaterial("armor_material_enhanced_steel", Reference.MOD_ID + ":enhanced_steel", 13, new int[] {4, 7, 8, 3}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
-	//public static final ArmorMaterial ARMOR_MATERIAL_REINFORCED_ALUMINUM = EnumHelper.addArmorMaterial("armor_material_reinforced_aluminum", Reference.MOD_ID + ":reinforced_aluminum", 16, new int[] {3, 7, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_REINFORCED_CARBON_FIBER = EnumHelper.addArmorMaterial("armor_material_reinforced_carbon_fiber", Reference.MOD_ID + ":reinforced_carbon_fiber", 18, new int[] {3, 6, 9, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_REINFORCED_CARBON_STEEL = EnumHelper.addArmorMaterial("armor_material_reinforced_carbon_steel", Reference.MOD_ID + ":reinforced_carbon_steel", 16, new int[] {3, 6, 7, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOR_MATERIAL_REINFORCED_CHAIN = EnumHelper.addArmorMaterial("armor_material_reinforced_chain", Reference.MOD_ID + ":reinforced_chain", 15, new int[] {2, 4, 5, 2}, 12, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
@@ -117,7 +106,6 @@ public class ModItems
 	public static final ArmorMaterial ARMOR_MATERIAL_REINFORCED_STEEL = EnumHelper.addArmorMaterial("armor_material_reinforced_steel", Reference.MOD_ID + ":reinforced_steel", 15, new int[] {3, 5, 6, 2}, 8, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
 	//Items
-	//public static final Item ALUMINUM_INGOT = new ItemBase("aluminum_ingot");
 	public static final Item BELLOW = new ItemBase("bellow");
 	public static final Item CARBON_FIBER = new ItemBase("carbon_fiber");
 	public static final Item CARBON_FIBER_SHEET = new ItemBase("carbon_fiber_sheet");
@@ -132,11 +120,6 @@ public class ModItems
 	public static final Item STEEL = new ItemBase("steel");
 	
 	//Tools
-	/*public static final ItemAxe ALUMINUM_AXE = new ToolAxe("aluminum_axe", MATERIAL_ALUMINUM, 4.5F, -2.8F);
-	public static final ItemHoe ALUMINUM_HOE = new ToolHoe("aluminum_hoe", MATERIAL_ALUMINUM);
-	public static final ItemPickaxe ALUMINUM_PICKAXE = new ToolPickaxe("aluminum_pickaxe", MATERIAL_ALUMINUM);
-	public static final ItemSpade ALUMINUM_SHOVEL = new ToolSpade("aluminum_shovel", MATERIAL_ALUMINUM);
-	public static final ItemSword ALUMINUM_SWORD = new ToolSpeedSword("aluminum_sword", MATERIAL_ALUMINUM);*/
 	public static final ItemAxe CARBON_FIBER_AXE = new ToolAxe("carbon_fiber_axe", MATERIAL_CARBON_FIBER, 5.75F, -2.8F);
 	public static final ItemHoe CARBON_FIBER_HOE = new ToolHoe("carbon_fiber_hoe", MATERIAL_CARBON_FIBER);
 	public static final ItemPickaxe CARBON_FIBER_PICKAXE = new ToolPickaxe("carbon_fiber_pickaxe", MATERIAL_CARBON_FIBER);
@@ -159,10 +142,6 @@ public class ModItems
 	public static final ItemSword STEEL_SWORD = new ToolSword("steel_sword", MATERIAL_STEEL);
 	
 	//Armor
-	/*public static final Item ALUMINUM_HELMET = new ArmorBase("aluminum_helmet", ARMOR_MATERIAL_ALUMINUM, 1, EntityEquipmentSlot.HEAD);
-	public static final Item ALUMINUM_CHESTPLATE = new ArmorBase("aluminum_chestplate", ARMOR_MATERIAL_ALUMINUM, 1, EntityEquipmentSlot.CHEST);
-	public static final Item ALUMINUM_LEGGINGS = new ArmorBase("aluminum_leggings", ARMOR_MATERIAL_ALUMINUM, 2, EntityEquipmentSlot.LEGS);
-	public static final Item ALUMINUM_BOOTS = new ArmorBase("aluminum_boots", ARMOR_MATERIAL_ALUMINUM, 1, EntityEquipmentSlot.FEET);*/
 	public static final Item CARBON_FIBER_HELMET = new ArmorBase("carbon_fiber_helmet", ARMOR_MATERIAL_CARBON_FIBER, 1, EntityEquipmentSlot.HEAD);
 	public static final Item CARBON_FIBER_CHESTPLATE = new ArmorBase("carbon_fiber_chestplate", ARMOR_MATERIAL_CARBON_FIBER, 1, EntityEquipmentSlot.CHEST);
 	public static final Item CARBON_FIBER_LEGGINGS = new ArmorBase("carbon_fiber_leggings", ARMOR_MATERIAL_CARBON_FIBER, 2, EntityEquipmentSlot.LEGS);
@@ -183,10 +162,6 @@ public class ModItems
 	public static final Item STEEL_LEGGINGS = new ArmorBase("steel_leggings", ARMOR_MATERIAL_STEEL, 2, EntityEquipmentSlot.LEGS);
 	public static final Item STEEL_BOOTS = new ArmorBase("steel_boots", ARMOR_MATERIAL_STEEL, 1, EntityEquipmentSlot.FEET);
 	
-	/*public static final Item ENHANCED_ALUMINUM_HELMET = new ArmorBase("enhanced_aluminum_helmet", ARMOR_MATERIAL_ENHANCED_ALUMINUM, 1, EntityEquipmentSlot.HEAD);
-	public static final Item ENHANCED_ALUMINUM_CHESTPLATE = new ArmorBase("enhanced_aluminum_chestplate", ARMOR_MATERIAL_ENHANCED_ALUMINUM, 1, EntityEquipmentSlot.CHEST);
-	public static final Item ENHANCED_ALUMINUM_LEGGINGS = new ArmorBase("enhanced_aluminum_leggings", ARMOR_MATERIAL_ENHANCED_ALUMINUM, 2, EntityEquipmentSlot.LEGS);
-	public static final Item ENHANCED_ALUMINUM_BOOTS = new ArmorBase("enhanced_aluminum_boots", ARMOR_MATERIAL_ENHANCED_ALUMINUM, 1, EntityEquipmentSlot.FEET);*/
 	public static final Item ENHANCED_CARBON_FIBER_HELMET = new ArmorBase("enhanced_carbon_fiber_helmet", ARMOR_MATERIAL_ENHANCED_CARBON_FIBER, 1, EntityEquipmentSlot.HEAD);
 	public static final Item ENHANCED_CARBON_FIBER_CHESTPLATE = new ArmorBase("enhanced_carbon_fiber_chestplate", ARMOR_MATERIAL_ENHANCED_CARBON_FIBER, 1, EntityEquipmentSlot.CHEST);
 	public static final Item ENHANCED_CARBON_FIBER_LEGGINGS = new ArmorBase("enhanced_carbon_fiber_leggings", ARMOR_MATERIAL_ENHANCED_CARBON_FIBER, 2, EntityEquipmentSlot.LEGS);
@@ -222,10 +197,6 @@ public class ModItems
 	public static final Item ENHANCED_STEEL_LEGGINGS = new ArmorBase("enhanced_steel_leggings", ARMOR_MATERIAL_ENHANCED_LEAD, 2, EntityEquipmentSlot.LEGS);
 	public static final Item ENHANCED_STEEL_BOOTS = new ArmorBase("enhanced_steel_boots", ARMOR_MATERIAL_ENHANCED_LEAD, 1, EntityEquipmentSlot.FEET);
 	
-	/*public static final Item REINFORCED_ALUMINUM_HELMET = new ArmorBase("reinforced_aluminum_helmet", ARMOR_MATERIAL_REINFORCED_ALUMINUM, 1, EntityEquipmentSlot.HEAD);
-	public static final Item REINFORCED_ALUMINUM_CHESTPLATE = new ArmorBase("reinforced_aluminum_chestplate", ARMOR_MATERIAL_REINFORCED_ALUMINUM, 1, EntityEquipmentSlot.CHEST);
-	public static final Item REINFORCED_ALUMINUM_LEGGINGS = new ArmorBase("reinforced_aluminum_leggings", ARMOR_MATERIAL_REINFORCED_ALUMINUM, 2, EntityEquipmentSlot.LEGS);
-	public static final Item REINFORCED_ALUMINUM_BOOTS = new ArmorBase("reinforced_aluminum_boots", ARMOR_MATERIAL_REINFORCED_ALUMINUM, 1, EntityEquipmentSlot.FEET);*/
 	public static final Item REINFORCED_CARBON_FIBER_HELMET = new ArmorBase("reinforced_carbon_fiber_helmet", ARMOR_MATERIAL_REINFORCED_CARBON_FIBER, 1, EntityEquipmentSlot.HEAD);
 	public static final Item REINFORCED_CARBON_FIBER_CHESTPLATE = new ArmorBase("reinforced_carbon_fiber_chestplate", ARMOR_MATERIAL_REINFORCED_CARBON_FIBER, 1, EntityEquipmentSlot.CHEST);
 	public static final Item REINFORCED_CARBON_FIBER_LEGGINGS = new ArmorBase("reinforced_carbon_fiber_leggings", ARMOR_MATERIAL_REINFORCED_CARBON_FIBER, 2, EntityEquipmentSlot.LEGS);
