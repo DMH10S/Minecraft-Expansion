@@ -13,6 +13,5 @@ public class ModRecipes {
 		GameRegistry.addSmelting(ModItems.RAW_BOAR_MEAT, new ItemStack(ModItems.COOKED_BOAR_MEAT, 1), 1.0f);
 		GameRegistry.addSmelting(ModItems.RAW_TURKEY_BREAST, new ItemStack(ModItems.COOKED_TURKEY_BREAST, 1), 1.0f);
 		GameRegistry.addSmelting(ModItems.RAW_TURKEY_DRUMSTICK, new ItemStack(ModItems.COOKED_TURKEY_DRUMSTICK, 1), 1.0f);
-		//GameRegistry.addSmelting(ModBlocks.ALUMINUM_ORE, new ItemStack(ModItems.ALUMINUM_INGOT, 1), 1.0f);
 	}
 }
